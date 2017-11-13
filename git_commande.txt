@@ -1,0 +1,14 @@
+Nakon što pokrenete vaše računare prvo što treba da otvorite jeste Terminal na linxu ili GitBash ako ste na Windowsu i ukucate sljedeću komandu:
+
+cd Desktop/                                                      **** ova komanda će promijeniti vaš trenutni direktorijum u dekstop. Nakon toga:
+git clone https://github.com/ervinpepic/OOP_2_Test_1             **** ova komanda će klonirati sa github-a folder u koji trebate da kreirate folder sa vašim imenom i prezimenom kao što piše u README.md i unutar njega fajlove sa zadacima.
+git remote add origin https://github.com/ervinpepic/OOP_2_Test_1 **** ova komanda će postaviti vaš trenutni repozitorijum ovaj u koji stavljate vaše zadatke dakle vidite da je link isti. nakon toga:
+git status                                                       **** ova komanda će provjeriti da li ste nešto novo kreirali u ovom repozitorijumu i ukoliko jeste biće označeno crvenom bojom ukoliko ne pisat će da je working tree clean.
+git add --all                                                    **** ovom komandom dodajete sve vaše fajlove i foldere koje ste kreirali na repo u kojem trenutno radite i spremni su za push opciju.
+git commit -m "poruka,,,,"                                       **** ovom komandom ćete dodati poruku uz vaš push.
+git push origin master                                           **** ovom komandom ćete sve iz vašeg logalnog git repozitorijuma ubaciti na online git.
+
+
+
+
+Komanda git add --all i komanda git commit -m "poruka" kao i git push origin master ćete koristiti pri svakom uspješno odrađenom zadatku kao i prvi puta kada kreirate folder sa vašim imenom i prezimenom.
